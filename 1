@@ -1,0 +1,24 @@
+using System;
+
+namespace BorrowLend.Models
+{
+    public class Item
+    {
+        int Id;
+        string ItemName;
+        string Borrower;
+        string Lender;
+    }
+    public class ExpenseType
+    {
+        int Id;
+        string ExpenseTypeName;
+    }
+    public class ErrorViewModel
+    {
+        public string RequestId { get; set; }
+
+        public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
+    }
+}
+
